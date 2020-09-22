@@ -72,9 +72,9 @@ class AddPhoto extends Component {
             <fieldset>
                 <Form onSubmit={this.handleSubmit}>
                     <Form.Group >
-                        <Form.Input label="Friendly name" type="text" placeholder="Title" value={this.state.name} onChange={this.handleChange.bind(this, 'name')} />
-                        <Form.Input key={this.state.lastUpdate} label="File to upload" type="file" onChange={this.handleChange.bind(this, 'file')} />
-                        <Form.Button icon labelPosition="right" label="GraphQL mutation" type="submit" disabled={!isSubmitEnabled}><Icon name="upload" />Add Photo</Form.Button>
+                        <Form.Input label="Receipt name" type="text" placeholder="Title" value={this.state.name} onChange={this.handleChange.bind(this, 'name')} />
+                        <Form.Input key={this.state.lastUpdate} label="Receipt to upload (jpg, png)" type="file" onChange={this.handleChange.bind(this, 'file')} />
+                        <Form.Button icon labelPosition="right" label="&#9736;" type="submit" disabled={!isSubmitEnabled}><Icon name="upload" />Submit</Form.Button>
                     </Form.Group>
                 </Form>
             </fieldset>

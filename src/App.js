@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import logo from './logo.png';
+import logo from './logo.jpg';
 import './App.css';
 import 'semantic-ui-css/semantic.min.css'
+import '@aws-amplify/ui/dist/style.css';
 
 //AppSync and Apollo libraries
 import AWSAppSyncClient from "aws-appsync";
@@ -47,7 +48,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">AWS Amplify with AWS AppSync Sample using Complex Objects </h1>
+          <h1 className="App-title">Fullstack Modern App Architecture: Receipt Handling Workflow  </h1>
         </header>
         <div className="App-content">
           <AddPhoto options={{ bucket: S3_BUCKET_NAME, region: S3_BUCKET_REGION }} />
