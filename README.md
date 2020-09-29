@@ -1,6 +1,6 @@
 # AWS AppSync GraphQL Photo Sample
 
-**Please submit issues to the [appsync-sdk-js](https://github.com/awslabs/aws-mobile-appsync-sdk-js/issues) repository.**
+
 
 ![Demo](public/demo.gif)
 

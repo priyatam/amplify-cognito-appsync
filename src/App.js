@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.jpg';
+import logo from './logo.png';
 import './App.css';
 import 'semantic-ui-css/semantic.min.css'
 import '@aws-amplify/ui/dist/style.css';
